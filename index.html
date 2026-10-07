@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoring IoT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <div class="layout">
+
+        <section class="navbar">
+            <h3>SYSTEM CONTROL</h3>
+        </section>
+
+        <section class="items">
+            <h2>IOT DEVICE</h2>
+
+            <div class="item">
+                <img src="assets/led-on.png" class="item-img" alt="LED">
+                <button class="item-submit" onclick="window.location.href='led.html'">
+                    LED CONTROL
+                </button>
+            </div>
+
+            <div class="item">
+                <img src="assets/fan.png" class="item-img" alt="Fan">
+                <button class="item-submit" onclick="window.location.href='fan.html'">
+                    FAN CONTROL
+                </button>
+            </div>
+
+            <div class="item">
+                <img src="assets/wip.png" class="item-img" alt="Ongoing">
+                <button class="item-submit">
+                    ONGOING
+                </button>
+            </div>
+        </section>
+
+        <section class="bottombar">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-regular fa-house"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="led.html">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="fan.html">
+                        <i class="fa-solid fa-fan"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-circle-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
